@@ -26,7 +26,7 @@ public class App {
             //1 = par 0 = impar
             if(p ==0 && soma%2 !=0){
                 System.out.println("Jogador 1 ganha!"); // escolheu impar e saiu impar
-            }else if (p ==0 && soma%2 !=0){
+            }else if (p ==0 && soma%2 ==0){
                 System.out.println("Jogador 2 ganha!"); // escolheu impar e saiu par
             }
             
